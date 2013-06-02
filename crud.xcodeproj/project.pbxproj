@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D92486D17448273009C2259 /* cruddb.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 0D92486C17448273009C2259 /* cruddb.sqlite */; };
+		F25545451485C9DA003BA75A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F25545441485C9DA003BA75A /* UIKit.framework */; };
+		F25545471485C9DA003BA75A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F25545461485C9DA003BA75A /* Foundation.framework */; };
+		F25545491485C9DA003BA75A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F25545481485C9DA003BA75A /* CoreGraphics.framework */; };
+		F255454F1485C9DA003BA75A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F255454D1485C9DA003BA75A /* InfoPlist.strings */; };
+		F25545511485C9DA003BA75A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F25545501485C9DA003BA75A /* main.m */; };
+		F25545551485C9DA003BA75A /* kcbAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F25545541485C9DA003BA75A /* kcbAppDelegate.m */; };
+		F25545581485C9DA003BA75A /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F25545561485C9DA003BA75A /* MainStoryboard.storyboard */; };
+		F255455B1485C9DA003BA75A /* kcbViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F255455A1485C9DA003BA75A /* kcbViewController.m */; };
+		F25545621485CCE5003BA75A /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F25545611485CCE5003BA75A /* libsqlite3.0.dylib */; };
+		F25545681485CDDB003BA75A /* CrudOp.m in Sources */ = {isa = PBXBuildFile; fileRef = F25545671485CDDB003BA75A /* CrudOp.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0D92486C17448273009C2259 /* cruddb.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = cruddb.sqlite; sourceTree = "<group>"; };
+		F25545401485C9DA003BA75A /* crud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = crud.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F25545441485C9DA003BA75A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F25545461485C9DA003BA75A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F25545481485C9DA003BA75A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F255454C1485C9DA003BA75A /* crud-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "crud-Info.plist"; sourceTree = "<group>"; };
+		F255454E1485C9DA003BA75A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F25545501485C9DA003BA75A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F25545521485C9DA003BA75A /* crud-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "crud-Prefix.pch"; sourceTree = "<group>"; };
+		F25545531485C9DA003BA75A /* kcbAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = kcbAppDelegate.h; sourceTree = "<group>"; };
+		F25545541485C9DA003BA75A /* kcbAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = kcbAppDelegate.m; sourceTree = "<group>"; };
+		F25545571485C9DA003BA75A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		F25545591485C9DA003BA75A /* kcbViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = kcbViewController.h; sourceTree = "<group>"; };
+		F255455A1485C9DA003BA75A /* kcbViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = kcbViewController.m; sourceTree = "<group>"; };
+		F25545611485CCE5003BA75A /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		F25545661485CDDB003BA75A /* CrudOp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrudOp.h; sourceTree = "<group>"; };
+		F25545671485CDDB003BA75A /* CrudOp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrudOp.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F255453D1485C9DA003BA75A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F25545451485C9DA003BA75A /* UIKit.framework in Frameworks */,
+				F25545471485C9DA003BA75A /* Foundation.framework in Frameworks */,
+				F25545491485C9DA003BA75A /* CoreGraphics.framework in Frameworks */,
+				F25545621485CCE5003BA75A /* libsqlite3.0.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F25545351485C9D9003BA75A = {
+			isa = PBXGroup;
+			children = (
+				F25545631485CD58003BA75A /* classes */,
+				F255454A1485C9DA003BA75A /* crud */,
+				F25545431485C9DA003BA75A /* Frameworks */,
+				F25545411485C9DA003BA75A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F25545411485C9DA003BA75A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F25545401485C9DA003BA75A /* crud.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F25545431485C9DA003BA75A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F25545611485CCE5003BA75A /* libsqlite3.0.dylib */,
+				F25545441485C9DA003BA75A /* UIKit.framework */,
+				F25545461485C9DA003BA75A /* Foundation.framework */,
+				F25545481485C9DA003BA75A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F255454A1485C9DA003BA75A /* crud */ = {
+			isa = PBXGroup;
+			children = (
+				0D92486C17448273009C2259 /* cruddb.sqlite */,
+				F25545531485C9DA003BA75A /* kcbAppDelegate.h */,
+				F25545541485C9DA003BA75A /* kcbAppDelegate.m */,
+				F25545561485C9DA003BA75A /* MainStoryboard.storyboard */,
+				F25545591485C9DA003BA75A /* kcbViewController.h */,
+				F255455A1485C9DA003BA75A /* kcbViewController.m */,
+				F255454B1485C9DA003BA75A /* Supporting Files */,
+			);
+			path = crud;
+			sourceTree = "<group>";
+		};
+		F255454B1485C9DA003BA75A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F255454C1485C9DA003BA75A /* crud-Info.plist */,
+				F255454D1485C9DA003BA75A /* InfoPlist.strings */,
+				F25545501485C9DA003BA75A /* main.m */,
+				F25545521485C9DA003BA75A /* crud-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F25545631485CD58003BA75A /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				F25545661485CDDB003BA75A /* CrudOp.h */,
+				F25545671485CDDB003BA75A /* CrudOp.m */,
+			);
+			name = classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F255453F1485C9DA003BA75A /* crud */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F255455E1485C9DA003BA75A /* Build configuration list for PBXNativeTarget "crud" */;
+			buildPhases = (
+				F255453C1485C9DA003BA75A /* Sources */,
+				F255453D1485C9DA003BA75A /* Frameworks */,
+				F255453E1485C9DA003BA75A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = crud;
+			productName = crud;
+			productReference = F25545401485C9DA003BA75A /* crud.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F25545371485C9D9003BA75A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = kCodebook;
+			};
+			buildConfigurationList = F255453A1485C9D9003BA75A /* Build configuration list for PBXProject "crud" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F25545351485C9D9003BA75A;
+			productRefGroup = F25545411485C9DA003BA75A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F255453F1485C9DA003BA75A /* crud */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F255453E1485C9DA003BA75A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F255454F1485C9DA003BA75A /* InfoPlist.strings in Resources */,
+				F25545581485C9DA003BA75A /* MainStoryboard.storyboard in Resources */,
+				0D92486D17448273009C2259 /* cruddb.sqlite in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F255453C1485C9DA003BA75A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F25545511485C9DA003BA75A /* main.m in Sources */,
+				F25545551485C9DA003BA75A /* kcbAppDelegate.m in Sources */,
+				F255455B1485C9DA003BA75A /* kcbViewController.m in Sources */,
+				F25545681485CDDB003BA75A /* CrudOp.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F255454D1485C9DA003BA75A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F255454E1485C9DA003BA75A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F25545561485C9DA003BA75A /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F25545571485C9DA003BA75A /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F255455C1485C9DA003BA75A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F255455D1485C9DA003BA75A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F255455F1485C9DA003BA75A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "crud/crud-Prefix.pch";
+				INFOPLIST_FILE = "crud/crud-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F25545601485C9DA003BA75A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "crud/crud-Prefix.pch";
+				INFOPLIST_FILE = "crud/crud-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F255453A1485C9D9003BA75A /* Build configuration list for PBXProject "crud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F255455C1485C9DA003BA75A /* Debug */,
+				F255455D1485C9DA003BA75A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F255455E1485C9DA003BA75A /* Build configuration list for PBXNativeTarget "crud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F255455F1485C9DA003BA75A /* Debug */,
+				F25545601485C9DA003BA75A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F25545371485C9D9003BA75A /* Project object */;
+}
